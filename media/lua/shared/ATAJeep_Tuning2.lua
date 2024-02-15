@@ -200,7 +200,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontLeft"] = {
             area = "SeatFrontLeft",
             use = {
                 MetalBar = 4,
-                SmallSheetMetal = 2,
                 BlowTorch = 4,
                 Screws = 4,
             },
@@ -208,6 +207,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontLeft"] = {
                 bodylocation = "Base.WeldingMask",
             },
             skills = {
+                Mechanics = 2,
                 MetalWelding = 3,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -217,16 +217,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontLeft"] = {
         uninstall = {
             area = "SeatFrontLeft",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
@@ -246,7 +242,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontRight"] = {
             area = "SeatFrontRight",
             use = {
                 MetalBar = 4,
-                SmallSheetMetal = 2,
                 BlowTorch = 4,
                 Screws = 4,
             },
@@ -254,6 +249,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontRight"] = {
                 bodylocation = "Base.WeldingMask",
             },
             skills = {
+                Mechanics = 2,
                 MetalWelding = 3,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -263,16 +259,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontRight"] = {
         uninstall = {
             area = "SeatFrontRight",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
@@ -292,7 +284,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearLeft"] = {
             area = "SeatRearLeft",
             use = {
                 MetalBar = 4,
-                SmallSheetMetal = 2,
                 BlowTorch = 4,
                 Screws = 4,
             },
@@ -300,6 +291,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearLeft"] = {
                 bodylocation = "Base.WeldingMask",
             },
             skills = {
+                Mechanics = 2,
                 MetalWelding = 3,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -309,16 +301,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearLeft"] = {
         uninstall = {
             area = "SeatRearLeft",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
@@ -338,7 +326,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearRight"] = {
             area = "SeatRearRight",
             use = {
                 MetalBar = 4,
-                SmallSheetMetal = 2,
                 BlowTorch = 4,
                 Screws = 4,
             },
@@ -346,6 +333,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearRight"] = {
                 bodylocation = "Base.WeldingMask",
             },
             skills = {
+                Mechanics = 2,
                 MetalWelding = 3,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -355,16 +343,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearRight"] = {
         uninstall = {
             area = "SeatRearRight",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
@@ -387,13 +371,14 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshield"] = {
                 SheetMetal = 1,
                 MetalBar = 4,
                 Screws = 8,
-                BlowTorch = 8,
+                BlowTorch = 6,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
             skills = {
+                Mechanics = 3,
                 MetalWelding = 4,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -403,16 +388,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshield"] = {
         uninstall = {
             area = "TireFrontLeft",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
@@ -430,17 +411,17 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshieldRear"] = {
             weight = "auto",
             area = "TireRearRight",
             use = {
-                MetalPipe = 2,
-                SmallSheetMetal = 4,
-                SheetMetal = 1,
+                MetalPipe = 4,
                 MetalBar = 4,
+                SmallSheetMetal = 2,
                 Screws = 8,
-                BlowTorch = 8,
+                BlowTorch = 6,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
             },
             skills = {
+                Mechanics = 3,
                 MetalWelding = 4,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -450,16 +431,12 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshieldRear"] = {
         uninstall = {
             area = "TireRearRight",
             animation = "ATA_IdleLeverOpenMid",
-            use = {
-                BlowTorch=4,
-            },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 both = "Base.Crowbar",
             },
             recipes = {"Basic Mechanics"},
             skills = {
-                MetalWelding = 2,
+                Mechanics = 2,
             },
             result = "auto",
             time = 40,
