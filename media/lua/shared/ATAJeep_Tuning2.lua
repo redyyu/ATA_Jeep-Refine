@@ -405,7 +405,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshieldRear"] = {
     Default = {
         icon = "media/ui/tuning2/protection_window_windshield.png",
         category = "Protection",
-        protection = {"WindshieldRear"},
+        protection = {"WindshieldRear", "TruckBed"},
         removeIfBroken = true,
         install = {
             weight = "auto",
@@ -738,6 +738,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWheels"] = {
         protection = {"TireFrontLeft", "TireFrontRight", "TireRearLeft", "TireRearRight"}, 
         install = { 
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             use = { 
                 ATAProtectionWheelsChain = 1,
             },
@@ -753,6 +754,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWheels"] = {
         },
         uninstall = {
             sound = "ATA2InstallWheelChain",
+            transmitFirstItemCondition = true,
             tools = {
                 primary = "Base.Wrench",
             },
