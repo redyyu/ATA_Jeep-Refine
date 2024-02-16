@@ -50,7 +50,9 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
                 Mechanics = 2,
             },
             transmitConditionOnFirstItem = true,
-            result = 'auto',
+            result = {
+                Autotsar__ATAJeepBumper1Item = 1,
+            },
             time = 15,
         }
     },
@@ -192,7 +194,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontLeft"] = {
     Default = {
         icon = "media/ui/tuning2/protection_window_side.png",
         category = "Protection",
-        protection = {"WindowFrontLeft"},
+        protection = {"DoorFrontLeft", "WindowFrontLeft"},
         removeIfBroken = true,
         disableOpenWindowFromSeat = "SeatFrontLeft",
         install = {
@@ -234,7 +236,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontRight"] = {
     Default = {
         icon = "media/ui/tuning2/protection_window_side.png",
         category = "Protection",
-        protection = {"WindowFrontRight"},
+        protection = {"DoorFrontRight", "WindowFrontRight"},
         disableOpenWindowFromSeat = "SeatFrontRight",
         removeIfBroken = true,
         install = {
@@ -276,7 +278,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearLeft"] = {
     Default = {
         icon = "media/ui/tuning2/protection_window_side.png",
         category = "Protection",
-        protection = {"WindowRearLeft"},
+        protection = {"DoorRearLeft", "WindowRearLeft"},
         disableOpenWindowFromSeat = "SeatRearLeft",
         removeIfBroken = true,
         install = {
@@ -318,7 +320,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearRight"] = {
     Default = {
         icon = "media/ui/tuning2/protection_window_side.png",
         category = "Protection",
-        protection = {"WindowRearRight"},
+        protection = {"DoorRearRight", "WindowRearRight"},
         disableOpenWindowFromSeat = "SeatRearRight",
         removeIfBroken = true,
         install = {
