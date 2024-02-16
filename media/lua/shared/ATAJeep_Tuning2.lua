@@ -513,6 +513,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofTent"] = {
             recipes = {"Basic Mechanics"},
             result = {
                 Autotsar__ATAJeepRoofTentItem = 1,
+                Screws=5,
             },
             time = 65,
         }
@@ -713,6 +714,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2VisualSnorkel"] = {
             recipes = {"Advanced Mechanics"},
             result = {
                 Autotsar__ATAJeepSnorkelItem = 1,
+                Screws=5,
             },
             time = 30,
         }
