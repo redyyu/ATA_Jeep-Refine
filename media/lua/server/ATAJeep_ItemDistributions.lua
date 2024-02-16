@@ -71,12 +71,38 @@ table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, 1);
 
 -- ATAJeepSnorkelItem
 table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Autotsar.ATAJeepSnorkelItem");
-table.insert(ProceduralDistributions.list["CrateMechanics"].items, 1);
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.5);
 table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Autotsar.ATAJeepSnorkelItem");
-table.insert(ProceduralDistributions.list["GarageMechanics"].items, 1);
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.5);
 table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, "Autotsar.ATAJeepSnorkelItem");
-table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 1);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 0.5);
 table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, "Autotsar.ATAJeepSnorkelItem");
-table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, 1);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, 0.5);
 table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, "Autotsar.ATAJeepSnorkelItem");
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, 0.5);
+
+
+-- ATAJeepBumper2Item
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Autotsar.ATAJeepBumper2Item");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 1);
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Autotsar.ATAJeepBumper2Item");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 1);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, "Autotsar.ATAJeepBumper2Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 1);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, "Autotsar.ATAJeepBumper2Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, 1);
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, "Autotsar.ATAJeepBumper2Item");
 table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, 1);
+
+
+-- ATAJeepBumper3Item
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, "Autotsar.ATAJeepBumper3Item");
+table.insert(ProceduralDistributions.list["CrateMechanics"].items, 0.5);
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, "Autotsar.ATAJeepBumper3Item");
+table.insert(ProceduralDistributions.list["GarageMechanics"].items, 0.5);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, "Autotsar.ATAJeepBumper3Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].items, 0.5);
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, "Autotsar.ATAJeepBumper3Item");
+table.insert(ProceduralDistributions.list["MechanicShelfTools"].junk.items, 0.5);
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, "Autotsar.ATAJeepBumper3Item");
+table.insert(ProceduralDistributions.list["MechanicShelfWheels"].items, 0.5);

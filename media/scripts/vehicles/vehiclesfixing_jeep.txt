@@ -1,0 +1,18 @@
+module Base
+{
+
+	/** 
+		'ConditionModifier' option could be remove, default = 1.
+		also the first fixer seems gain more effective.
+    **/
+
+	fixing Fix Jaap Wrungel Bumper & Bullbar {
+      Require : ATAJeepBumper1Item;ATAJeepBumper2Item;ATAJeepBumper3Item,
+      GlobalItem : BlowTorch=2,
+      ConditionModifier : 1.2,
+
+      Fixer : MetalBar=2; MetalWelding=3;Mechanics=2,
+      Fixer : MetalPipe=2; MetalWelding=3;Mechanics=2,
+  }
+	
+}

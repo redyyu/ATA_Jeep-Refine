@@ -18,7 +18,7 @@ module Autotsar
         WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
     }
 
-
+    /* Bumpers & Bullbars */
     model ATAJeepBumper1World {
         mesh = WorldItems/ATA_Bumper1,
         texture = Vehicles/ATA_Jeep_items,
@@ -28,7 +28,7 @@ module Autotsar
         DisplayCategory = Tuning,
         Weight = 10.0,
         Type = Normal,
-        DisplayName = Jeep Classic Bumper,
+        DisplayName = ATAJeepBumper1Item,
         Icon = ATAJeepBumper1Item,
         VehicleType = 1,
         ConditionMax = 100,
@@ -36,18 +36,81 @@ module Autotsar
         MechanicsItem = TRUE,
         WorldStaticModel = Autotsar.ATAJeepBumper1World,
     }
-    recipe Cut Jeep Classic Bumper {
-        ATAJeepBumper1Item=1,
-        BlowTorch=4,
+    recipe Cut ATAJeepBumper1Item {
+        ATAJeepBumper1Item = 1,
+        BlowTorch = 5,
         keep WeldingMask,
-        Result:MetalPipe=3,
-        Time:350.0,
-        Category:Welding,
-        SkillRequired:MetalWelding=2,
-        OnCreate:Recipe.OnCreate.CutATAUnusableMetal,
-        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
-        NeedToBeLearn:false,
+        Result: SmallSheetMetal = 8,
+        Time: 350.0,
+        Category: Welding,
+        SkillRequired: MetalWelding=2,
+        OnCreate: Recipe.OnCreate.CutATAUnusableMetal,
+        OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+        NeedToBeLearn: false,
     }
+
+
+    model ATAJeepBumper2World {
+        mesh = WorldItems/ATA_Bumper2,
+        texture = Vehicles/ATA_Jeep_items,
+        scale = 0.04,
+    }
+    item ATAJeepBumper2Item {
+        DisplayCategory = Tuning,
+        Weight = 10.0,
+        Type = Normal,
+        DisplayName = ATAJeepBumper2Item,
+        Icon = ATAJeepBumper2Item,
+        VehicleType = 1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAJeepBumper2World,
+    }
+    recipe Cut ATAJeepBumper2Item {
+       ATAJeepBumper2Item = 1,
+       BlowTorch = 5,
+       keep WeldingMask,
+       Result: MetalPipe = 4,
+       Time: 350.0,
+       Category: Welding,
+       SkillRequired: MetalWelding=2,
+       OnCreate: Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    model ATAJeepBumper3World {
+        mesh = WorldItems/ATA_Bumper3,
+        texture = Vehicles/ATA_Jeep_items,
+        scale = 0.04,
+    }
+    item ATAJeepBumper3Item {
+        DisplayCategory = Tuning,
+        Weight = 10.0,
+        Type = Normal,
+        DisplayName = ATAJeepBumper3Item,
+        Icon = ATAJeepBumper3Item,
+        VehicleType = 1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = Autotsar.ATAJeepBumper3World,
+    }
+    recipe Cut ATAJeepBumper3Item {
+       ATAJeepBumper3Item = 1,
+       BlowTorch = 5,
+       keep WeldingMask,
+       Result: MetalPipe=6,
+       Time: 350.0,
+       Category: Welding,
+       SkillRequired: MetalWelding=2,
+       OnCreate: Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
+    }
+
+    /* Window Protection */
 
     /* RoofTent */
     model ATAJeepRoofTentWorld

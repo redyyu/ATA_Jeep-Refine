@@ -30,7 +30,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
             transmitFirstItemCondition = true,
             use = {
                 Autotsar__ATAJeepBumper1Item = 1,
-                Screws=4,
+                Screws=1,
             },
             tools = {
                 primary = "Base.Wrench",
@@ -47,7 +47,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 2,
+                Mechanics = 3,
             },
             transmitConditionOnFirstItem = true,
             result = {
@@ -65,43 +65,39 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
         install = {
             weight = "auto",
             animation = "ATA_PickLock",
+            transmitFirstItemCondition = true,
             use = {
-                MetalPipe = 3,
-                MetalBar = 1,
-                Screws = 4,
-                BlowTorch = 4,
+                Autotsar__ATAJeepBumper2Item = 1,
+                Screws = 2,
             },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 3,
-                MetalWelding = 5,
+                Mechanics = 4,
             },
             recipes = {"Basic Mechanics", carRecipe},
-            time = 60, 
+            time = 20, 
         },
         uninstall = {
-            weight = "auto",
-            animation = "ATA_Crowbar_DoorLeft",
-            use = {
-                BlowTorch=2,
-            },
+            animation = "ATA_PickLock",
             tools = {
-                bodylocation = "Base.WeldingMask",
-                both = "Base.Crowbar",
+                primary = "Base.Wrench",
             },
             skills = {
-                MetalWelding = 2,
+                Mechanics = 4,
             },
             recipes = {"Basic Mechanics"},
-            result = 'auto',
-            time = 30,
+            transmitConditionOnFirstItem = true,
+            result = {
+                Autotsar__ATAJeepBumper2Item = 1,
+                Screws=1,
+            },
+            time = 20,
         }
     },
     Bumper3 = {
-        spawnChance = 10,
+        spawnChance = 25,
         icon = "media/ui/tuning2/jeep_bumper_3.png",
         name = "IGUI_ATA2_Bullbar",
         category = "Bumpers",
@@ -109,37 +105,34 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
         install = {
             weight = "auto",
             animation = "ATA_PickLock",
+            transmitFirstItemCondition = true,
             use = {
-                MetalPipe = 4,
-                SmallSheetMetal = 2,
-                Screws = 6,
-                BlowTorch = 5,
+                Autotsar__ATAJeepBumper3Item = 1,
+                Screws = 2,
             },
             tools = {
-                bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 3,
-                MetalWelding = 6,
+                Mechanics = 5,
             },
             recipes = {"Basic Mechanics", carRecipe},
-            time = 60, 
+            time = 30, 
         },
         uninstall = {
-            animation = "ATA_Crowbar_DoorLeft",
-            use = {
-                BlowTorch=4,
-            },
+            animation = "ATA_PickLock",
             tools = {
-                bodylocation = "Base.WeldingMask",
-                both = "Base.Crowbar",
+                primary = "Base.Wrench",
+            },
+            skills = {
+                Mechanics = 5,
             },
             recipes = {"Basic Mechanics"},
-            skills = {
-                MetalWelding = 2,
+            transmitConditionOnFirstItem = true,
+            result = {
+                Autotsar__ATAJeepBumper3Item = 1,
+                Screws=1,
             },
-            result = 'auto',
             time = 30,
         }
     },
@@ -158,14 +151,14 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
                 SheetMetal = 2,
                 SmallSheetMetal = 4,
                 BlowTorch = 10,
-                Screws=10,
+                Screws=3,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
                 primary = "Base.Wrench",
             },
             skills = {
-                Mechanics = 4,
+                Mechanics = 6,
                 MetalWelding = 7,
             },
             recipes = {"Basic Mechanics", carRecipe},
@@ -181,7 +174,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
                 both = "Base.Crowbar",
             },
             skills = {
-                MetalWelding = 2,
+                MetalWelding = 3,
             },
             recipes = {"Basic Mechanics"},
             result = "auto",
@@ -203,7 +196,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontLeft"] = {
             use = {
                 MetalBar = 4,
                 BlowTorch = 4,
-                Screws = 4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -245,7 +237,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowFrontRight"] = {
             use = {
                 MetalBar = 4,
                 BlowTorch = 4,
-                Screws = 4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -287,7 +278,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearLeft"] = {
             use = {
                 MetalBar = 4,
                 BlowTorch = 4,
-                Screws = 4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -329,7 +319,6 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindowRearRight"] = {
             use = {
                 MetalBar = 4,
                 BlowTorch = 4,
-                Screws = 4,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -372,7 +361,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshield"] = {
                 SmallSheetMetal = 4,
                 SheetMetal = 1,
                 MetalBar = 4,
-                Screws = 8,
+                Screws = 2,
                 BlowTorch = 6,
             },
             tools = {
@@ -416,7 +405,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2ProtectionWindshieldRear"] = {
                 MetalPipe = 4,
                 MetalBar = 4,
                 SmallSheetMetal = 2,
-                Screws = 8,
+                Screws = 2,
                 BlowTorch = 6,
             },
             tools = {
@@ -456,7 +445,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofBase"] = {
             use = {
                 MetalPipe = 6,
                 BlowTorch=5,
-                Screws=4,
+                Screws=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -499,7 +488,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofTent"] = {
             area = "ATARoof",
             use = {
                 Autotsar__ATAJeepRoofTentItem = 1,
-                Screws=6,
+                Screws=2,
             },
             tools = {
                 primary = "Base.Wrench",
@@ -582,7 +571,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 MetalPipe = 12,
                 MetalBar = 4,
                 BlowTorch=10,
-                Screws=4,
+                Screws=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -659,7 +648,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkWheelRack"] = {
                 MetalPipe = 4,
                 MetalBar = 4,
                 BlowTorch=5,
-                Screws=4,
+                Screws=2,
             },
             tools = {
                 bodylocation = "Base.WeldingMask",
@@ -701,7 +690,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2VisualSnorkel"] = {
             transmitFirstItemCondition = true,
             use = {
                 Autotsar__ATAJeepSnorkelItem = 1,
-                Screws=6,
+                Screws=2,
             },
             tools = {
                 primary = "Base.Screwdriver",
