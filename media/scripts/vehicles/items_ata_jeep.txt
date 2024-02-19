@@ -146,6 +146,7 @@ module Autotsar
         Type = Normal,
         DisplayName = ATAJeepSnorkelItem,
         Icon = ATASnorkelItem,
+        VehicleType = 1,
         ChanceToSpawnDamaged = 25,
         ConditionMax = 100,
         MechanicsItem = TRUE,
