@@ -142,7 +142,7 @@ module Autotsar
     }
     item ATAJeepSnorkelItem {
         DisplayCategory = Tuning,
-        Weight = 2.0,
+        Weight = 10.0,
         Type = Normal,
         DisplayName = ATAJeepSnorkelItem,
         Icon = ATASnorkelItem,
