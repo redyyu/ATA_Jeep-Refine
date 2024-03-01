@@ -443,8 +443,8 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofBase"] = {
             area = "ATARoof",
             weight = "auto",
             use = {
-                MetalPipe = 6,
-                BlowTorch = 5,
+                MetalPipe = 8,
+                BlowTorch = 8,
                 Screws = 10,
             },
             tools = {
@@ -472,7 +472,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofBase"] = {
             },
             recipes = {"Basic Mechanics"},
             result = "auto",
-            requireUninstalled = {"ATA2InteractiveTrunkRoofRack", "ATA2RoofTent"},
+            requireUninstalled = {"ATA2InteractiveTrunkRoofRack", "ATA2RoofTent", "ATARoofLightLeft", "ATARoofLightRight", "ATARoofLightFront", "ATARoofLightRear"},
             time = 65,
         }
     }
