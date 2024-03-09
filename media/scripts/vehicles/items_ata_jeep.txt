@@ -19,7 +19,7 @@ module Autotsar
     }
 
     /* Bumpers & Bullbars */
-    model ATAJeepBumper1World {
+    model ATAJeepBumper1_Ground {
         mesh = WorldItems/ATA_Bumper1,
         texture = Vehicles/ATA_Jeep_items,
         scale = 0.04,
@@ -34,7 +34,7 @@ module Autotsar
         ConditionMax = 100,
         ChanceToSpawnDamaged = 25,
         MechanicsItem = TRUE,
-        WorldStaticModel = Autotsar.ATAJeepBumper1World,
+        WorldStaticModel = Autotsar.ATAJeepBumper1_Ground,
     }
     recipe Cut ATAJeepBumper1Item {
         ATAJeepBumper1Item = 1,
@@ -50,7 +50,7 @@ module Autotsar
     }
 
 
-    model ATAJeepBumper2World {
+    model ATAJeepBumper2_Ground {
         mesh = WorldItems/ATA_Bumper2,
         texture = Vehicles/ATA_Jeep_items,
         scale = 0.04,
@@ -65,7 +65,7 @@ module Autotsar
         ConditionMax = 100,
         ChanceToSpawnDamaged = 25,
         MechanicsItem = TRUE,
-        WorldStaticModel = Autotsar.ATAJeepBumper2World,
+        WorldStaticModel = Autotsar.ATAJeepBumper2_Ground,
     }
     recipe Cut ATAJeepBumper2Item {
        ATAJeepBumper2Item = 1,
@@ -80,7 +80,7 @@ module Autotsar
        NeedToBeLearn:false,
     }
 
-    model ATAJeepBumper3World {
+    model ATAJeepBumper3_Ground {
         mesh = WorldItems/ATA_Bumper3,
         texture = Vehicles/ATA_Jeep_items,
         scale = 0.04,
@@ -95,7 +95,7 @@ module Autotsar
         ConditionMax = 100,
         ChanceToSpawnDamaged = 25,
         MechanicsItem = TRUE,
-        WorldStaticModel = Autotsar.ATAJeepBumper3World,
+        WorldStaticModel = Autotsar.ATAJeepBumper3_Ground,
     }
     recipe Cut ATAJeepBumper3Item {
        ATAJeepBumper3Item = 1,
@@ -113,7 +113,7 @@ module Autotsar
     /* Window Protection */
 
     /* RoofTent */
-    model ATAJeepRoofTentWorld
+    model ATAJeepRoofTent_Ground
     {
         mesh = WorldItems/ATA_PalatkaClosed,
         texture = WorldItems/ATA_Common_palatka,
@@ -131,11 +131,11 @@ module Autotsar
         ConditionMax = 100,
         MechanicsItem = TRUE,
         Tooltip = Tooltip_item_tuning,
-        WorldStaticModel = Autotsar.ATAJeepRoofTentWorld,
+        WorldStaticModel = Autotsar.ATAJeepRoofTent_Ground,
     }
 
     /* Snorkel */
-    model ATAJeepSnorkelWorld {
+    model ATAJeepSnorkel_Ground {
         mesh = WorldItems/ATA_Airtube,
         texture = WorldItems/ATA_Common_items,
         scale = 0.04,
@@ -151,7 +151,7 @@ module Autotsar
         ConditionMax = 100,
         MechanicsItem = TRUE,
         Tooltip = Tooltip_item_tuning,
-        WorldStaticModel = Autotsar.ATAJeepSnorkelWorld,
+        WorldStaticModel = Autotsar.ATAJeepSnorkel_Ground,
     }
 
 }
