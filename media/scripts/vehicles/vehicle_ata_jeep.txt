@@ -6,12 +6,12 @@ module Base
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_1,
+            texture = Vehicles/ATA_Jeep_archer_black,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_1_egnh,
+            texture = Vehicles/ATA_Jeep_archer_black_egnh,
         }
         
         engineForce = 6600,
@@ -22,19 +22,19 @@ module Base
         template! = ATAJeep,
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_2,
+            texture = Vehicles/ATA_Jeep_rubicon_pink,
         }
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_2_egnh,
+            texture = Vehicles/ATA_Jeep_rubicon_pink_egnh,
         }
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_3,
+            texture = Vehicles/ATA_Jeep_rubicon_red,
         }
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_3_egnh,
+            texture = Vehicles/ATA_Jeep_rubicon_red_egnh,
         }
         engineForce = 5600,
         maxSpeed = 100f,
@@ -45,42 +45,42 @@ module Base
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_4,
+            texture = Vehicles/ATA_Jeep_brown,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_4_egnh,
+            texture = Vehicles/ATA_Jeep_brown_egnh,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_5,
+            texture = Vehicles/ATA_Jeep_cyan,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_5_egnh,
+            texture = Vehicles/ATA_Jeep_cyan_egnh,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_6,
+            texture = Vehicles/ATA_Jeep_white,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_6_egnh,
+            texture = Vehicles/ATA_Jeep_white_egnh,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_7,
+            texture = Vehicles/ATA_Jeep_black,
         }
 
         skin
         {
-            texture = Vehicles/ATA_Jeep_base_7_egnh,
+            texture = Vehicles/ATA_Jeep_black_egnh,
         }
     }
 }
