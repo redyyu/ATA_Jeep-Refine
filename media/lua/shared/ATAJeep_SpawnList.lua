@@ -22,24 +22,24 @@ Use this file to alter or add vehicle spawning logic.
 
 VehicleZoneDistribution = VehicleZoneDistribution or {};
 
-VehicleZoneDistribution.trailerpark.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 3}
-VehicleZoneDistribution.trailerpark.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.trailerpark.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.trailerpark.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 1}
 VehicleZoneDistribution.trailerpark.vehicles["Base.ATAJeepArcher"] = {index = -1, spawnChance = 1}
 
-VehicleZoneDistribution.parkingstall.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 3}
-VehicleZoneDistribution.parkingstall.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.parkingstall.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.parkingstall.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 1}
 VehicleZoneDistribution.parkingstall.vehicles["Base.ATAJeepArcher"] = {index = -1, spawnChance = 1}
 
-VehicleZoneDistribution.medium.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 3}
-VehicleZoneDistribution.medium.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.medium.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.medium.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 1}
 VehicleZoneDistribution.medium.vehicles["Base.ATAJeepArcher"] = {index = -1, spawnChance = 1}
 
 VehicleZoneDistribution.good.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 5}
 VehicleZoneDistribution.good.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 3}
 VehicleZoneDistribution.good.vehicles["Base.ATAJeepArcher"] = {index = -1, spawnChance = 2}
 
-VehicleZoneDistribution.sport.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 3}
-VehicleZoneDistribution.sport.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.sport.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 2}
+VehicleZoneDistribution.sport.vehicles["Base.ATAJeepRubicon"] = {index = -1, spawnChance = 1}
 VehicleZoneDistribution.sport.vehicles["Base.ATAJeepArcher"] = {index = -1, spawnChance = 1}
 
 VehicleZoneDistribution.ranger.vehicles["Base.ATAJeepClassic"] = {index = -1, spawnChance = 3}
