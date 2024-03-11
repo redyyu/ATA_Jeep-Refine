@@ -2,8 +2,8 @@ require "TimedActions/ISPaintVehicleAction.lua"
 
 local vehicleTable = {
     ["Base.ATAJeepArcher"] = "PaintRed",
-    ["Base.ATAJeepRubicon"] = 1,
-    ["Base.ATAJeepClassic"] = 1,
+    ["Base.ATAJeepRubicon"] = "PaintRed",
+    ["Base.ATAJeepClassic"] = "PaintRed",
 }
 
 
@@ -54,6 +54,8 @@ PaintVehicle.doFillMenuOutsideVehicle = function(playerObj, context, vehicle, te
 
         if (vehicle:getSkinIndex()%2) == 0 then
             local paintBrush = playerInv:getFirstTypeRecurse("Paintbrush")
+            print('----------------graffitiType-------------')
+            print(graffitiType)
             local paintCan = playerInv:getFirstTypeRecurse(graffitiType)
             writeOpt = subMenu:addOptionOnTop(getText("ContextMenu_Vehicle_EGNH"), 
                                               playerObj, PaintVehicle.paintWords, vehicle, 
