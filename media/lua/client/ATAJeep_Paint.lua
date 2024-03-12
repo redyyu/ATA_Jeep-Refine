@@ -51,7 +51,6 @@ PaintVehicle.doFillMenuOutsideVehicle = function(playerObj, context, vehicle, te
         context:addSubMenu(paintMenuOpt, subMenu)
 
         -- Paint words
-        print('----------------12321313have_uses-------------')
         if (vehicle:getSkinIndex()%2) == 0 then
             local paintBrush = playerInv:getFirstTypeRecurse("Paintbrush")
             local paintCan = playerInv:getFirstTypeRecurse(graffitiType)
