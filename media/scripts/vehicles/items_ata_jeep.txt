@@ -110,9 +110,7 @@ module Autotsar
        NeedToBeLearn:false,
     }
 
-    /* Window Protection */
-
-    /* RoofTent */
+/* RoofTent */
     model ATAJeepRoofTent_Ground
     {
         mesh = WorldItems/ATA_PalatkaClosed,
@@ -134,7 +132,7 @@ module Autotsar
         WorldStaticModel = Autotsar.ATAJeepRoofTent_Ground,
     }
 
-    /* Snorkel */
+/* Snorkel */
     model ATAJeepSnorkel_Ground {
         mesh = WorldItems/ATA_Airtube,
         texture = WorldItems/ATA_Common_items,
@@ -152,6 +150,18 @@ module Autotsar
         MechanicsItem = TRUE,
         Tooltip = Tooltip_item_tuning,
         WorldStaticModel = Autotsar.ATAJeepSnorkel_Ground,
+    }
+    recipe Cut ATAJeepSnorkelItem {
+       ATAJeepSnorkelItem = 1,
+       BlowTorch = 3,
+       keep WeldingMask,
+       Result: MetalPipe = 3,
+       Time: 350.0,
+       Category: Welding,
+       SkillRequired: MetalWelding=2,
+       OnCreate: Recipe.OnCreate.CutATAUnusableMetal,
+       OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+       NeedToBeLearn:false,
     }
 
 }

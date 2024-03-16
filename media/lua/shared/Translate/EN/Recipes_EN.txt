@@ -1,0 +1,6 @@
+Recipes_EN = {
+    Recipe_Cut_ATAJeepSnorkelItem = "Cut Snorkel"
+    Recipe_Cut_ATAJeepBumper1Item = "Cut Bumper"
+    Recipe_Cut_ATAJeepBumper2Item = "Cut Bumper"
+    Recipe_Cut_ATAJeepBumper3Item = "Cut Bumper"
+}
