@@ -48,6 +48,21 @@ module Autotsar
         OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
         NeedToBeLearn: false,
     }
+    recipe Make ATAJeepBumper2Item {
+        ATAJeepBumper1Item = 1,
+        MetalPipe = 4,
+        WeldingRods = 4,
+        BlowTorch = 5,
+        keep WeldingMask,
+        
+        Result: ATAJeepBumper2Item,
+        Time: 600.0,
+        Category: Tuning,
+        SkillRequired: MetalWelding=5,
+        OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
+        OnCreate: Recipe.OnCreate.transmitFirstItemCondition,
+        NeedToBeLearn: false,
+    }
 
 
     model ATAJeepBumper2_Ground {

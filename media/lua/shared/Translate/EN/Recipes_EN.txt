@@ -1,6 +1,11 @@
 Recipes_EN = {
-    Recipe_Cut_ATAJeepSnorkelItem = "Cut Snorkel"
-    Recipe_Cut_ATAJeepBumper1Item = "Cut Bumper"
-    Recipe_Cut_ATAJeepBumper2Item = "Cut Bumper"
-    Recipe_Cut_ATAJeepBumper3Item = "Cut Bumper"
+    /* Other translation is in tsarslib */
+
+    /************ Autotsar Tuning Atelier - Mustang 66 ************/
+    
+    Recipe_Cut_ATAJeepSnorkelItem = "Cut Jaap Wrungel - Schnorkel"
+    Recipe_Cut_ATAJeepBumper1Item = "Cut Jaap Wrungel - Classic bumper"
+    Recipe_Cut_ATAJeepBumper2Item = "Cut Jaap Wrungel - Winch bumper"
+    Recipe_Cut_ATAJeepBumper3Item = "Cut Jaap Wrungel - Bullbar"
+    Recipe_Make_ATAJeepBumper2Item = "Make Jaap Wrungel - Winch bumper"
 }
