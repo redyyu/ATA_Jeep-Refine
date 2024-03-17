@@ -2,6 +2,6 @@ ContextMenu_EN = {
   /* Other translation is in tsarslib */
 
   ContextMenu_Vehicle_Write_EGNH = "Write «EGNH»"
-  ContextMenu_Vehicle_Clean_EGNH = "Clean «EGNH»",
+  ContextMenu_Vehicle_Clean_EGNH = "Clean «EGNH»"
 
 }
