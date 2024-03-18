@@ -178,7 +178,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2Bumper"] = {
             },
             recipes = {"Basic Mechanics"},
             result = "auto",
-            time = 65,
+            time = 35,
         }
     }
 }
@@ -473,7 +473,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2RoofBase"] = {
             recipes = {"Basic Mechanics"},
             result = "auto",
             requireUninstalled = {"ATA2InteractiveTrunkRoofRack", "ATA2RoofTent", "ATARoofLightLeft", "ATARoofLightRight", "ATARoofLightFront", "ATARoofLightRear"},
-            time = 65,
+            time = 35,
         }
     }
 }
@@ -600,7 +600,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkRoofRack"] = {
                 MetalWelding = 2,
             },
             result = "auto",
-            time = 65,
+            time = 35,
         }
     }
 }
@@ -660,7 +660,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkWheelRack"] = {
             },
             recipes = {"Basic Mechanics", carRecipe},
             requireInstalled = {"ATASpareWheel"},
-            time = 40, 
+            time = 60, 
         },
         uninstall = {
             animation = "ATA_IdleLeverOpenMid",
@@ -676,7 +676,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkWheelRack"] = {
                 MetalWelding = 2,
             },
             result = "auto",
-            time = 40,
+            time = 30,
         }
     }
 }
