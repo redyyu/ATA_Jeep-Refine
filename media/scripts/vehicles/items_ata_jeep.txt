@@ -38,7 +38,7 @@ module Autotsar
     }
     recipe Cut ATAJeepBumper1Item {
         ATAJeepBumper1Item = 1,
-        BlowTorch = 5,
+        BlowTorch = 2,
         keep WeldingMask,
         Result: SmallSheetMetal = 8,
         Time: 350.0,
@@ -84,7 +84,7 @@ module Autotsar
     }
     recipe Cut ATAJeepBumper2Item {
        ATAJeepBumper2Item = 1,
-       BlowTorch = 5,
+       BlowTorch = 2,
        keep WeldingMask,
        Result: MetalPipe = 4,
        Time: 350.0,
@@ -114,7 +114,7 @@ module Autotsar
     }
     recipe Cut ATAJeepBumper3Item {
        ATAJeepBumper3Item = 1,
-       BlowTorch = 5,
+       BlowTorch = 2,
        keep WeldingMask,
        Result: MetalPipe=6,
        Time: 350.0,
@@ -168,7 +168,7 @@ module Autotsar
     }
     recipe Cut ATAJeepSnorkelItem {
        ATAJeepSnorkelItem = 1,
-       BlowTorch = 3,
+       BlowTorch = 2,
        keep WeldingMask,
        Result: MetalPipe = 3,
        Time: 350.0,
