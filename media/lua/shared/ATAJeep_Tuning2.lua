@@ -570,8 +570,7 @@ NewCarTuningTable["ATAJeep"].parts["ATA2InteractiveTrunkRoofRack"] = {
             weight = "auto",
             use = {
                 MetalPipe = 4,
-                SheetMetal = 3,
-                MetalBar = 4,
+                MetalBar = 6,
                 BlowTorch=10,
                 Screws=10,
             },
