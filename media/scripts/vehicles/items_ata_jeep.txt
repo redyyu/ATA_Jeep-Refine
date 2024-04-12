@@ -58,7 +58,7 @@ module Autotsar
         Result: ATAJeepBumper2Item,
         Time: 600.0,
         Category: Tuning,
-        SkillRequired: MetalWelding=5,
+        SkillRequired: MetalWelding=5;Mechanics=5,
         OnGiveXP: Recipe.OnGiveXP.MetalWelding10,
         OnCreate: Recipe.OnCreate.transmitFirstItemCondition,
         NeedToBeLearn: false,
